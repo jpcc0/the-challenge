@@ -17,6 +17,6 @@ app.use(express.json());
 app.use('/api/users', userRoutes);
 app.use('/api/challenges', challengeRoutes);
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(5000, () => console.log(`Server started on port 5000`));
 
 module.exports = app;
